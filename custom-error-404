@@ -1,97 +1,102 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="icon" type="image/png" href="http://www.hagafu.com/wp-content/uploads/2014/07/hagafu_favicon.png" />
-<title>Error 404 / Te has dormido sobre el teclado?</title>
-<style>
-@import  "http://fonts.googleapis.com/css?family=Roboto+Condensed";
-@import  "http://fonts.googleapis.com/css?family=Oswald:400,300";
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="icon" type="image/png" href="http://www.hagafu.com/wp-content/uploads/2014/07/hagafu_favicon.png" />
+    <title>Error 404 / Te has dormido sobre el teclado?</title>
+    <style>
+        @import "http://fonts.googleapis.com/css?family=Roboto+Condensed";
+        @import "http://fonts.googleapis.com/css?family=Oswald:400,300";
 
-body {
-    	background: url("http://media.giphy.com/media/xv3WUrBxWkUPC/giphy.gif");
-    	background-size:cover;
-    	background-repeat:repeat;
-    	position:relative;
-	margin: 0;
-	padding:0;
-	width:100%;
-	height:100%;
-	display:block;
-}
-.container {
-	background:rgba(0,0,0,0.0);
-	display:block;
-	text-align:center;
-	vertical-align:middle;
-	margin-top:10%;
-	margin-left:20%;
-	margin-right:20%;
-	margin-bottom:20%;
-	width:auto;
-	/*padding-left:0.5em;
-	padding-right:0.5em;
-	padding-top:1.5em;*/
-}
+        body {
+            background: url("http://media.giphy.com/media/xv3WUrBxWkUPC/giphy.gif");
+            background-size: cover;
+            background-repeat: repeat;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
 
-/*.content {
-	display:block;
-	text-align:center;
-	width:auto;
-	height:auto;
-}*/
+        .container {
+            background: rgba(0, 0, 0, 0.0);
+            display: block;
+            text-align: center;
+            vertical-align: middle;
+            margin-top: 10%;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-bottom: 20%;
+            width: auto;
+            /*
+            padding-left:0.5em;
+            padding-right:0.5em;
+            padding-top:1.5em;*/
+        }
 
-IMG.displayed {
-    	position:relative;
-	margin-left:auto;
-	margin-right:auto;
-	max-width:100%;
-	height:auto;
-}	
-  
-h1 {
-	color:white;
-	width:auto;
-	font-family: "Oswald", Arial, sans-serif;
-   	font-weight: 400;
-	text-align:center;
-}
+        /*
+        .content {
+            display:block;
+            text-align:center;
+            width:auto;
+            height:auto;
+        }*/
 
-h2 {
-	color: white; 
-	width:auto; 
-	font-family: 'Oswald', Arial, sans-serif;
-    	font-weight: 400;
-	text-align:center;
-}
+        IMG.displayed {
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            height: auto;
+        }
 
-h3 {
-	color: white;
-	width:auto; 
-	font-family: 'Oswald', Arial, sans-serif;
-	font-weight: 400;
-	text-align:center;
-}
-</style>
+        h1 {
+            color: white;
+            width: auto;
+            font-family: "Oswald", Arial, sans-serif;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        h2 {
+            color: white;
+            width: auto;
+            font-family: 'Oswald', Arial, sans-serif;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        h3 {
+            color: white;
+            width: auto;
+            font-family: 'Oswald', Arial, sans-serif;
+            font-weight: 400;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-      <div class="container">
-      	
-        <div class="content">
-      		
-            <img class="displayed" src="http://www.hagafu.com/wp-content/uploads/2014/07/hagafu_logo_letters_white.png" alt="Logo Hagafu">
-      
-      		<h1>Error 404</h1>
+    <div class="container">
 
-      		<h2>Parece que esta página no existe!</h2>
-      
-      		<h3>Pero no te preocupes, simplemente dale a retroceder y volveras a poder navegar por el contenido más asombroso.</h3>
-      
-      		<img id="troll" src="http://i.giphy.com/of63gWdEHNdTi.gif" alt="GIF de joven enfadado"/>
-      	
+        <div class="content">
+
+            <img class="displayed" src="http://www.hagafu.com/wp-content/uploads/2014/07/hagafu_logo_letters_white.png" alt="Logo Hagafu">
+
+            <h1>Error 404</h1>
+
+            <h2>Parece que esta página no existe!</h2>
+
+            <h3>Pero no te preocupes, simplemente dale a retroceder y volveras a poder navegar por el contenido más asombroso.</h3>
+
+            <img id="troll" src="http://i.giphy.com/of63gWdEHNdTi.gif" alt="GIF de joven enfadado" />
+
         </div>
-     
-      </div>
+
+    </div>
 </body>
+
 </html>
